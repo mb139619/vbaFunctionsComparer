@@ -15,8 +15,8 @@ This repository contains a Python script that compares VBA functions across two 
 ```python
 if __name__ == "__main__":
 
-    new_file = "yournewfilepath"
-    old_file = "youroldfilepath"
+    new_file = "yournewfile.xlsm"
+    old_file = "youroldfile.xlsm"
     
     comparer = CompareWorkbooks(new_file, old_file)
     comparer.showDifferences()
