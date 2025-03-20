@@ -197,8 +197,8 @@ class CompareWorkbooks():
 
 if __name__ == "__main__":
     
-    new_file = "Aggiornamento_B4_COLG4_v5_CIB.xlsm"
-    old_file = "Aggiornamento_B4_primo_rilascio_v2_CIB.xlsm"
+    new_file = "new_file.xlsm"
+    old_file = "old_file.xlsm"
 
     comparer = CompareWorkbooks(new_file, old_file)
     comparer.showDifferences()
